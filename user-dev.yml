@@ -1,5 +1,5 @@
 server: 
-  port: ${port:9091} 
+  port: ${port:9092} 
 spring: 
   datasource: 
     driver-class-name: com.mysql.jdbc.Driver 
@@ -20,4 +20,3 @@ eureka:
     prefer-ip-address: true 
     lease-expiration-duration-in-seconds: 90 
     lease-renewal-interval-in-seconds: 30
-    test
